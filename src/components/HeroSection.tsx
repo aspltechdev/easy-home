@@ -50,11 +50,11 @@ const HeroSection = () => {
               </motion.div>
             </div>
 
-            <div className="grid grid-cols-2 lg:flex lg:flex-wrap justify-center lg:justify-start gap-3 mb-10">
-              {[t.hero.badge1, t.hero.badge2, t.hero.badge3].map((badge, idx) => (
+            <div className="flex flex-col sm:flex-row flex-wrap justify-center lg:justify-start gap-3 mb-10">
+              {[t.hero.badge1, t.hero.badge3].map((badge, idx) => (
                 <div 
                   key={badge} 
-                  className={`flex items-center gap-3 text-[11px] sm:text-sm font-bold text-foreground bg-white rounded-2xl p-3 shadow-md border border-border group hover:border-black transition-all ${idx === 2 ? 'col-span-2' : 'col-span-1'}`}
+                  className={`flex items-center gap-3 text-xs sm:text-sm font-bold text-foreground bg-white rounded-2xl p-3 px-4 shadow-md border border-border group hover:border-black transition-all`}
                 >
                   <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-secondary flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
                     <CheckCircle2 className="w-4 h-4 sm:w-5 sm:h-5 text-accent" />
