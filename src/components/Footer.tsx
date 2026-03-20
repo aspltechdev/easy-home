@@ -30,9 +30,29 @@ const Footer = () => {
 
           <div>
             <h4 className="font-bold mb-3 text-sm">{t.footer.headOffice}</h4>
-            <p className="text-sm text-background/70 flex gap-2"><MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />{t.footer.headAddr}</p>
+            <div className="space-y-3">
+              <p className="text-sm text-background/70 flex gap-2">
+                <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
+                {t.footer.headAddr}
+              </p>
+              <div className="w-full h-32 rounded-lg overflow-hidden border border-background/10">
+                <iframe
+                  title="Head Office Map"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  src="https://www.google.com/maps?q=D.No.+42/350-1,+Jayanagar+Colony,+Kadapa+-+516002&output=embed"
+                  allowFullScreen
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+
             <h4 className="font-bold mt-4 mb-2 text-sm">{t.footer.branchOffice}</h4>
-            <p className="text-sm text-background/70 flex gap-2"><MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />{t.footer.branchAddr}</p>
+            <p className="text-sm text-background/70 flex gap-2">
+              <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
+              {t.footer.branchAddr}
+            </p>
           </div>
 
           <div>
