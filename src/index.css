@@ -78,3 +78,67 @@
     box-shadow: 0 10px 40px -8px hsl(51 100% 50% / 0.3);
   }
 }
+
+
+
+/* Financial Partners Marquee */
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  background: linear-gradient(to right, #f0f4ff, #e8edff, #f0f4ff);
+  padding: 20px 0;
+  border-radius: 12px;
+  border: 1px solid #dbeafe;
+  position: relative;
+}
+
+/* Dark mode support */
+.dark .marquee-container {
+  background: linear-gradient(to right, #1e293b, #1e293b, #1e293b);
+  border-color: #334155;
+}
+
+.marquee-track {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  width: max-content;
+  animation: marqueeScroll 30s linear infinite;
+}
+
+.marquee-item {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #1e293b;
+  white-space: nowrap;
+  padding: 0 8px;
+  letter-spacing: 0.5px;
+}
+
+.dark .marquee-item {
+  color: #e2e8f0;
+}
+
+@keyframes marqueeScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Pause on hover */
+.marquee-container:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .marquee-item {
+    font-size: 0.9rem;
+  }
+  .marquee-track {
+    gap: 30px;
+  }
+}
