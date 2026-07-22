@@ -15,7 +15,7 @@ export const translations = {
     hero: {
       h1: "Trusted Financial & Legal Services in Kadapa, Andhra Pradesh",
       sub: "Loans · Insurance · Tax Filing · Company Registration · Real Estate",
-      desc: "Easy Home Projects, led by K. Praveen Kumar Reddy (SABP), helps you with PMEGP loans, HDFC Life Insurance, Care Health Insurance, GST registration, income tax filing, and company registration — all in one place. Serving Kadapa and Gooty for over 10 years.",
+      desc: "Easy Home Projects, led by K. Praveen Kumar Reddy (LABP), helps you with PMEGP loans, HDFC Life Insurance, Care Health Insurance, GST registration, income tax filing, and company registration — all in one place. Serving Kadapa and Gooty for over 10 years.",
       badge1: "1000+ Happy Clients",
       badge2: "10+ Years Experience",
       badge3: "HDFC & Care Partner",
@@ -25,7 +25,7 @@ export const translations = {
     about: {
       sectionTitle: "Meet K. Praveen Kumar Reddy",
       subtitle: "Your Financial Expert in Kadapa",
-      p1: "K. Praveen Kumar Reddy is the founder of Easy Home Projects and a State Authorised Business Partner (SABP). He is an officially empanelled advisor for HDFC Life Insurance and Care Health Insurance in Andhra Pradesh.",
+      p1: "K. Praveen Kumar Reddy is the founder of Easy Home Projects and a State Authorised Business Partner (LABP). He is an officially empanelled advisor for HDFC Life Insurance and Care Health Insurance in Andhra Pradesh.",
       p2: "With over 10 years of experience, Praveen has helped more than 1,000 clients get PMEGP loans, Mudra loans, GST registrations, company registrations, and tax filings done quickly and correctly.",
       cta: "Read Our Full Story →",
     },
@@ -74,7 +74,7 @@ export const translations = {
       phone2: "89197 82135",
       copyright: "© 2026 Easy Home Projects. All rights reserved.",
       seoText: "Financial services, GST registration, PMEGP loans, income tax filing, company registration, and insurance in Kadapa and Andhra Pradesh.",
-      founder: "Founded by K. Praveen Kumar Reddy (SABP)",
+      founder: "Founded by K. Praveen Kumar Reddy (LABP)",
     },
   },
   te: {
@@ -89,7 +89,7 @@ export const translations = {
     hero: {
       h1: "కడప, ఆంధ్ర ప్రదేశ్‌లో నమ్మకమైన ఆర్థిక & చట్టపరమైన సేవలు",
       sub: "రుణాలు · బీమా · పన్ను దాఖలు · కంపెనీ రిజిస్ట్రేషన్ · రియల్ ఎస్టేట్",
-      desc: "ఈజీ హోమ్ ప్రాజెక్ట్స్, K. ప్రవీణ్ కుమార్ రెడ్డి (SABP) నేతృత్వంలో, PMEGP రుణాలు, HDFC లైఫ్ ఇన్సూరెన్స్, కేర్ హెల్త్ ఇన్సూరెన్స్, GST రిజిస్ట్రేషన్, ఆదాయపు పన్ను దాఖలు మరియు కంపెనీ రిజిస్ట్రేషన్ — అన్నీ ఒకే చోట. కడప మరియు గూటీలో 10 సంవత్సరాలకు పైగా సేవ.",
+      desc: "ఈజీ హోమ్ ప్రాజెక్ట్స్, K. ప్రవీణ్ కుమార్ రెడ్డి (LABP) నేతృత్వంలో, PMEGP రుణాలు, HDFC లైఫ్ ఇన్సూరెన్స్, కేర్ హెల్త్ ఇన్సూరెన్స్, GST రిజిస్ట్రేషన్, ఆదాయపు పన్ను దాఖలు మరియు కంపెనీ రిజిస్ట్రేషన్ — అన్నీ ఒకే చోట. కడప మరియు గూటీలో 10 సంవత్సరాలకు పైగా సేవ.",
       badge1: "1000+ సంతోషకరమైన ఖాతాదారులు",
       badge2: "10+ సంవత్సరాల అనుభవం",
       badge3: "HDFC & కేర్ భాగస్వామి",
@@ -99,7 +99,7 @@ export const translations = {
     about: {
       sectionTitle: "K. ప్రవీణ్ కుమార్ రెడ్డిని కలవండి",
       subtitle: "కడపలో మీ ఆర్థిక నిపుణుడు",
-      p1: "K. ప్రవీణ్ కుమార్ రెడ్డి ఈజీ హోమ్ ప్రాజెక్ట్స్ వ్యవస్థాపకుడు మరియు స్టేట్ ఆథరైజ్డ్ బిజినెస్ పార్ట్‌నర్ (SABP). ఆంధ్ర ప్రదేశ్‌లో HDFC లైఫ్ ఇన్సూరెన్స్ మరియు కేర్ హెల్త్ ఇన్సూరెన్స్ కోసం అధికారికంగా ఎంపనెల్ చేయబడిన సలహాదారు.",
+      p1: "K. ప్రవీణ్ కుమార్ రెడ్డి ఈజీ హోమ్ ప్రాజెక్ట్స్ వ్యవస్థాపకుడు మరియు స్టేట్ ఆథరైజ్డ్ బిజినెస్ పార్ట్‌నర్ (LABP). ఆంధ్ర ప్రదేశ్‌లో HDFC లైఫ్ ఇన్సూరెన్స్ మరియు కేర్ హెల్త్ ఇన్సూరెన్స్ కోసం అధికారికంగా ఎంపనెల్ చేయబడిన సలహాదారు.",
       p2: "10 సంవత్సరాలకు పైగా అనుభవంతో, ప్రవీణ్ 1,000 కంటే ఎక్కువ మంది ఖాతాదారులకు PMEGP రుణాలు, ముద్ర రుణాలు, GST రిజిస్ట్రేషన్లు, కంపెనీ రిజిస్ట్రేషన్లు మరియు పన్ను దాఖలులు త్వరగా మరియు సరిగ్గా చేయడంలో సహాయం చేశారు.",
       cta: "మా పూర్తి కథ చదవండి →",
     },
@@ -148,7 +148,7 @@ export const translations = {
       phone2: "89197 82135",
       copyright: "© 2026 ఈజీ హోమ్ ప్రాజెక్ట్స్. అన్ని హక్కులు ప్రత్యేకించబడ్డాయి.",
       seoText: "కడప మరియు ఆంధ్ర ప్రదేశ్‌లో ఆర్థిక సేవలు, GST రిజిస్ట్రేషన్, PMEGP రుణాలు, ఆదాయపు పన్ను దాఖలు, కంపెనీ రిజిస్ట్రేషన్ మరియు బీమా.",
-      founder: "K. ప్రవీణ్ కుమార్ రెడ్డి (SABP) స్థాపించారు",
+      founder: "K. ప్రవీణ్ కుమార్ రెడ్డి (LABP) స్థాపించారు",
     },
   },
 };

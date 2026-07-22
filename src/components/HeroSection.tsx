@@ -44,7 +44,7 @@ const HeroSection = () => {
                   />
                   <div className="absolute bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md p-4 text-center border-t-2 border-border">
                     <p className="font-bold text-foreground text-sm leading-tight">K. Praveen Kumar Reddy</p>
-                    <p className="text-[10px] text-muted-foreground font-semibold mt-1">SABP — Partner</p>
+                    <p className="text-[10px] text-muted-foreground font-semibold mt-1">LABP — Partner</p>
                   </div>
                 </div>
               </motion.div>
@@ -94,7 +94,7 @@ const HeroSection = () => {
               />
               <div className="absolute bottom-0 left-0 right-0 bg-white/95 backdrop-blur-md p-5 text-center border-t-2 border-border transform transition-transform duration-300">
                 <p className="font-bold text-foreground text-base leading-tight">K. Praveen Kumar Reddy</p>
-                <p className="text-[11px] text-muted-foreground font-semibold mt-1">SABP — State Authorised Business Partner</p>
+                <p className="text-[11px] text-muted-foreground font-semibold mt-1">LABP — State Authorised Business Partner</p>
                 <p className="text-[11px] text-accent font-black uppercase tracking-widest mt-1.5">Founder, Easy Home Projects</p>
               </div>
             </motion.div>

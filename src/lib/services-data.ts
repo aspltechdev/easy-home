@@ -741,7 +741,7 @@ export const services: ServiceData[] = [
   {
     id: "general-insurance",
     icon: Shield,
-    titleEn: "General insurance ICICI bank",
+    titleEn: "General insurance ICICI Lombard",
     titleTe: "జనరల్ ఇన్సూరెన్స్ ICICI బ్యాంక్",
     descEn: "General insurance services from ICICI Bank.",
     descTe: "ICICI బ్యాంక్ నుండి జనరల్ ఇన్సూరెన్స్ సేవలు.",
